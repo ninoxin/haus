@@ -11,6 +11,161 @@
     font-style: normal;
 }
 
-h2{
+h2 , h4{
     font-family: 'LiberationSerif';
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.btn{
+    outline: none;
+    border: none;
+    max-width: 180px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 20px 52px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: auto;
+}
+.head__text{
+    background-color: #000;
+    color: #fff;
+}
+.head__text > p {
+    padding: 16px 0;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+.header{
+    background-color: #000; 
+}
+.header__block{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav{
+    max-width: 357px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    padding-top: 308px;
+    padding-bottom: 100px;
+    margin-top: -86px;
+    background: url(/img/hero.png) no-repeat bottom left #996B60;
+    color: #fff;
+}
+.hero__block{
+    right: 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: auto;
+}
+.hero__title{
+    font-size: 73px;
+    line-height: 96px;
+}
+.hero__text{
+    padding-top: 34px;
+    padding-bottom: 46px;
+    font-size: 18px;
+    line-height: 32px;
+}
+.hero__btn{
+    border: 1px solid #FFFFFF;
+    background: unset;
+}
+
+
+.we__block{
+    padding: 55px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid #BDBDBD;
+}
+.we__box{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.we__box > p{
+    width: 85%;
+    padding-bottom: 36px;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.intro__block{
+    padding-top: 60px;
+    padding-bottom: 95px;
+    border-bottom: 10px solid #BDBDBD;
+}
+.intro__desc{
+    padding-top: 55px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.intro__title{
+    font-size: 53px;
+    line-height: 80px;
+}
+.intro__Text{
+    max-width: 550px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.drink__block{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+}
+.drink__boxs{
+    max-width: 375px;
+    width: 100%;
+}
+.drink__box > h4{
+    font-size: 30px;
+    line-height: 44px;
+}
+.drink__box-big > h4{
+    font-size: 36px;
+    line-height: 44px;
+}
+.drink__box-big{
+    padding: 25px 0;
+}
+.drink__box > p {
+    font-size: 18px;
+    line-height: 32px;
+    padding-top: 20px;
 }
