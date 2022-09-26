@@ -169,3 +169,222 @@ a {
     line-height: 32px;
     padding-top: 20px;
 }
+
+.quote{
+    background: #000;
+    color: #fff;
+}
+.queto__block{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.queto__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+}
+.queto__box > p {
+    max-width: 313px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 32px;
+}
+.queto__box > h5{
+    padding-top: 17px;
+    padding-bottom: 9px;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+.queto__box > span {
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #8A8A8A;
+}
+
+.about__block{
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.about__desc{
+    max-width: 660px;
+    width: 100%;
+}
+.about__desc > h2{
+    font-size: 64px;
+    line-height: 80px;
+}
+.about__desc > p {
+    padding-top: 155px;
+    padding-bottom: 35px;
+    font-size: 18px;
+    line-height: 32px;
+}
+.about__desc > span {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.contact{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background: url('../img/contact.png') no-repeat center / cover;
+}
+.contact__block{
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact__desc{
+    max-width: 550px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact__desc > h2{
+    font-size: 55px;
+    line-height: 80px;
+}
+.contact__desc > p{
+    max-width: 412px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 26px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+.contact__box{
+    margin-top: 20px;
+    max-width: 550px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact__box > p {
+    font-size: 16px;
+    line-height: 28px;
+}
+.contact__box-links{
+    max-width: 270px;
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact__box-links > a {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer__block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer__desc{
+    max-width: 430px;
+    width: 100%;
+}
+.footer__desc > h2{
+    font-size: 42px;
+    line-height: 72px;
+}
+.footer__desc > p {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 20px 0;
+}
+.footer__box{
+    max-width: 660px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__box-links{
+    display: flex;
+    flex-direction: column;
+}
+.footer__box-links > h5 {
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+.footer__box-links > a {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 21px;
+}
+.footer__desc>form{
+    border-bottom: 1px solid #8A8A8A;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+.footer__desc > form > input{
+    background: unset;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.form__btn{
+    padding: 0;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+.footer__info{
+    width: 100%;
+    padding-top: 125px;
+    display: flex;
+}
+.footer__info > p {
+    font-size: 15px;
+    line-height: 24px;
+}
+.footer__nav{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+.footer__nav > a{
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
