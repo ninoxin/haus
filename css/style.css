@@ -35,7 +35,11 @@ a {
     text-align: center;
     letter-spacing: 1px;
 }
-
+.btn--secondary{
+    background: #191919;
+    border: 1px solid #191919;
+    color:#fff;
+}
 .container{
     max-width: 1320px;
     width: 100%;
@@ -120,10 +124,81 @@ a {
     line-height: 32px;
 }
 
+.goods__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 105px;
+    padding-bottom: 140px;
+    border-bottom: 1px solid #BDBDBD;
+}
+.goods__block > h2 {
+    max-width: 683px;
+    width: 100%;
+    text-align: center;
+    font-size: 64px;
+    line-height: 80px;
+}
+.goods__block > p{
+    padding-top: 25px;
+    padding-bottom: 82px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.goods__boxs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.goods__box{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;
+}
+.goods__box > h4{
+    padding-top: 60px;
+    font-size: 30px;
+    line-height: 44px;
+}
+.goods__box > p {
+    padding-top: 16px;
+    padding-bottom: 27px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.good__box-seller{
+    position: relative;
+}
+.good__box-seller::after{
+    position: absolute;
+    content: 'best seller';
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background: #191919;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
 .intro__block{
     padding-top: 60px;
     padding-bottom: 95px;
-    border-bottom: 10px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
 }
 .intro__desc{
     padding-top: 55px;
